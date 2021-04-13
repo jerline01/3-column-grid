@@ -1,0 +1,101 @@
+
+body {
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 15px;
+  background-color: hsl(0, 0%, 95%);
+}
+
+.container {
+  padding: 10%;
+}
+
+h1 {
+  padding: 10%;
+  font-family: 'Big Shoulders Display', cursive;
+  color: hsl(0, 0%, 95%);
+}
+
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  padding: 2% 5% 40%;
+}
+
+.attribution {
+  text-align: center;
+}
+
+/* image */
+
+img {
+  width: 30%;
+}
+
+/* boxes */
+
+.col-md {
+  padding-right: 0;
+  padding-left: 0;
+  display: flex;
+  align-items: stretch;
+}
+
+.card {
+  padding: 10%;
+}
+
+.first {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.second {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.third {
+  background-color: hsl(179, 100%, 13%);
+}
+
+/* buttons */
+.myButton {
+	background:linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+	background-color:hsl(0, 0%, 95%);
+	border-radius:21px;
+	border:1px solid #d6bcd6;
+	display:inline-block;
+	cursor:pointer;
+	color:#3a8a9e;
+	font-family:'Lexend Deca', sans-serif;
+	font-size:15px;
+  margin-right: 50px;
+	padding:10px 25px;
+	text-decoration:none;
+}
+
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.one {
+  color: hsl(31, 77%, 52%);
+}
+
+.two {
+  color: hsl(184, 100%, 22%);
+}
+
+.three {
+  color: hsl(179, 100%, 13%);
+}
+
+/* Media Query */
+
+@media (max-width:1440px) {
+  p {
+    padding-bottom: 10%;
+  }
+
+  .myButton {
+    padding-right: 20px;
+  }
+}
